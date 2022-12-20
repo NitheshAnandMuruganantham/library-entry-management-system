@@ -1,0 +1,7 @@
+table:
+  schema: public
+  name: attendance
+object_relationships:
+  - name: Student
+    using:
+      foreign_key_constraint_on: student_id
